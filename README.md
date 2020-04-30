@@ -9,8 +9,8 @@ Once signed in as admin, the user has access to crud operations for all products
 This app can be cloned and used immediately. The only requirement is to make your own password for cookie session. 
 This code can be found in index.js in root folder. Enter your own password as a string inside the square brackets as shown below. 
 
-<!-- app.use(
+app.use(
 	cookieSession({
 		keys : [ --Insert password here-- ]
 	})
-); -->
+);
